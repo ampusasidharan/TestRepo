@@ -16,6 +16,8 @@ public class LoggingSample {
 		
 		LOGGER.debug("debug - printing");
 		LOGGER.info("info - printing");
+		LOGGER.error("error - printing");
+		LOGGER.fatal("fatal - printing");
 
 	}
 
