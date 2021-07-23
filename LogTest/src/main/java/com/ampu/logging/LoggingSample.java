@@ -7,6 +7,9 @@ public class LoggingSample {
 	private static final Logger LOGGER = LogManager.getLogger(LoggingSample.class);
 
 	public static void main(String[] args) {
+		
+		LOGGER.info("Hello World");
+		
 		LOGGER.debug("This will be printed on debug");
 		LOGGER.info("This will be printed on info");
 		LOGGER.warn("This will be printed on warning");
