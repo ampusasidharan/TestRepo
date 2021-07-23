@@ -13,6 +13,9 @@ public class LoggingSample {
 		LOGGER.error("This will be printed on error");
 		LOGGER.fatal("This will be printed on fatal");
 		LOGGER.info("Appending string: {}.", "Hello, World");
+		
+		LOGGER.debug("debug - printing");
+		LOGGER.info("info - printing");
 
 	}
 
